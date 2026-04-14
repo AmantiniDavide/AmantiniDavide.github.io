@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davide Amantini - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">DA</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </button>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Ciao, sono</span>
+                    <span class="title-name">Davide Amantini</span>
+                </h1>
+                <p class="hero-subtitle">Computer Science Student & Aspiring Software Developer</p>
+                <p class="hero-description">
+                    22 anni, studente di Ingegneria e Scienze Informatiche all'Università di Bologna.
+                    Appassionato di sviluppo software e nuove tecnologie.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contattami</a>
+                    <a href="#projects" class="btn btn-secondary">Vedi Progetti</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-decoration"></div>
+                    <div class="profile-placeholder">
+                        <img src="foto.jpeg" alt="Davide Amantini" class="profile-image">
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Mi chiamo Davide, ho 22 anni e sono diplomato all'ITTS Belluzzi L. Da Vinci 
+                        con focus su Informatica e Telecomunicazioni.
+                    </p>
+                    <p>
+                        Attualmente studio presso l'Università di Bologna nel campo dell'Ingegneria 
+                        e Scienze Informatiche. Come studente, ho acquisito esperienza pratica attraverso 
+                        una varietà di progetti nel settore IT, che spaziano dallo sviluppo di piccoli 
+                        videogiochi, alla progettazione di siti web, alla creazione di applicazioni 
+                        mobile e alla gestione di database.
+                    </p>
+                    <p>
+                        Sono sempre alla ricerca di nuove opportunità per crescere professionalmente 
+                        e mettere in pratica le mie competenze. Mi appassiona affrontare nuove sfide 
+                        nel mondo dello sviluppo software e contribuire a progetti innovativi che 
+                        possano fare la differenza.
+                    </p>
+                    <div class="cv-container">
+                        <a href="CVita.pdf" class="btn btn-primary" download>
+                            Scarica CV (IT)
+                        </a>
+                        <a href="CVeng.png" class="btn btn-primary" download>
+                            Download CV (EN)
+                        </a>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">22</span>
+                            <span class="stat-label">Anni</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">B2</span>
+                            <span class="stat-label">English Level</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🎓</div>
+                        <h3>Educazione</h3>
+                        <p>Diploma ITTS Belluzzi L. Da Vinci</p>
+                        <p>Università di Bologna - Ingegneria e Scienze Informatiche</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💡</div>
+                        <h3>Soft Skills</h3>
+                        <p>
+                            Eccellenti capacità di problem solving e approccio analitico-logico 
+                            nella risoluzione di problemi complessi. Motivato e determinato, 
+                            con forte attitudine all'apprendimento continuo e alla crescita 
+                            professionale. Lavoro efficacemente sia in autonomia che in team.
+                        </p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🎯</div>
+                        <h3>Obiettivo</h3>
+                        <p>Crescere professionalmente come sviluppatore software attraverso 
+                            esperienze che mi permettano di affinare le mie competenze tecniche 
+                            e contribuire a progetti di valore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Competenze Tecniche</h2>
+            <p class="section-description">
+                Le tecnologie e gli strumenti che utilizzo per sviluppare i miei progetti.
+            </p>
+            <div class="skills-grid">
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">💻</span>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">PHP</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🌐</span>
+                        Web Development
+                    </h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Server-side Dev</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🛠️</span>
+                        Software Engineering
+                    </h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Object-Oriented Programming</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Memory Management</span>
+                        <span class="skill-tag">Modular Design</span>
+                        <span class="skill-tag">Database Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🎨</span>
+                        Tools & Creative
+                    </h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">MacOS / Unix</span>
+                        <span class="skill-tag">Final Cut</span>
+                        <span class="skill-tag">Adobe Photoshop</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Progetti</h2>
+            <p class="section-description">
+                Alcuni dei progetti che ho sviluppato durante il mio percorso di studi
+            </p>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📱</div>
+                        <span class="project-tag">Full Stack Web</span>
+                    </div>
+                    <h3 class="project-title">Mobile-First Web App</h3>
+                    <p class="project-description">
+                        Applicazione web dinamica progettata con approccio Mobile-First. 
+                        Include un backend PHP strutturato per la gestione utenti e contenuti, 
+                        interfacciato con un database MySQL relazionale. 
+                        Il frontend utilizza JavaScript asincrono per un'esperienza utente fluida.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Mobile First</span>
+                    </div>
+                    <a href="https://github.com/giuppycode/web-app-2026" target="_blank" class="project-link">
+                        🔗 Vedi su GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎮</div>
+                        <span class="project-tag">Game Development</span>
+                    </div>
+                    <h3 class="project-title">The Unyielding - 2D Game</h3>
+                    <p class="project-description">
+                        Videogioco 2D sviluppato interamente in Java. Il progetto segue rigorosamente 
+                        i principi della programmazione ad oggetti (OOP) e implementa design pattern 
+                        architetturali (MVC). Include gestione della fisica, collisioni, 
+                        e un game loop personalizzato.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Swing/AWT</span>
+                        <span class="tech-tag">OOP</span>
+                        <span class="tech-tag">MVC Pattern</span>
+                    </div>
+                    <a href="https://github.com/Alejandro-the-Unyielding/OOP24-UE" target="_blank" class="project-link">
+                        🔗 Vedi su GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💾</div>
+                        <span class="project-tag">Database Systems</span>
+                    </div>
+                    <h3 class="project-title">Database Management</h3>
+                    <p class="project-description">
+                        Progettazione di schemi E-R e implementazione di database relazionali complessi. 
+                        Ottimizzazione di query SQL, gestione di transazioni e stored procedures 
+                        per garantire l'integrità e la performance dei dati.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Database Design</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔧</div>
+                        <span class="project-tag">Computer Science</span>
+                    </div>
+                    <h3 class="project-title">Algoritmi & Strutture Dati</h3>
+                    <p class="project-description">
+                        Implementazione di algoritmi classici e strutture dati avanzate in C e Python. 
+                        Focus sull'efficienza computazionale, gestione della memoria e 
+                        risoluzione di problemi logici complessi.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Algorithms</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">Hobby & Interessi</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">💪</div>
+                    <h3>Palestra</h3>
+                    <p>
+                        Frequento la palestra dall'età di diciassette anni e ho mantenuto 
+                        questa abitudine da allora. Apprezzo l'equilibrio tra benessere fisico 
+                        e mentale, e il fitness è diventato una parte essenziale della mia 
+                        vita e della routine quotidiana.
+                    </p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎨</div>
+                    <h3>Design & Editing</h3>
+                    <p>
+                        Sono appassionato di design e editing foto/video da quando avevo tredici 
+                        anni, quando ho avuto il mio primo computer. Da quel momento, ho iniziato 
+                        a sperimentare con diversi software e tecniche, imparando a creare 
+                        contenuti visivamente accattivanti. Questo hobby mi ha permesso di 
+                        sviluppare creatività, attenzione ai dettagli e competenze tecniche.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contattami</h2>
+            <p class="section-description">
+                Interessato a collaborare o semplicemente vuoi dire ciao? Scrivimi!
+            </p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:amantinidavide@gmail.com">amantinidavide@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3>Telefono</h3>
+                            <a href="tel:+393389198230">+39 338 919 8230</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Località</h3>
+                            <p>Via del Sole 10, Cerasolo (RN), Italia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div class="contact-details">
+                            <h3>Social & Links</h3>
+                            <div class="social-links">
+                                <a href="https://github.com/AmantiniDavide" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+                                <a href="https://www.linkedin.com/in/davide-amantini-6371541a0/" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Messaggio</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Davide Amantini. Tutti i diritti riservati.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init("lbN0uiWb4EraSDsaw");
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
